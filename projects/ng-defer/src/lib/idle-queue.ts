@@ -1,4 +1,4 @@
-import { PriorityQueue } from "./priority-queue";
+import { PriorityQueue } from './priority-queue';
 import { requestIdleCallback, cancelIdleCallback } from './request-idle-callback';
 
 export class IdleQueue {
