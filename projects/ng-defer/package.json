@@ -1,0 +1,12 @@
+{
+  "name": "ng-defer",
+  "version": "0.0.2",
+  "keywords": ["ng-defer", "ng defer", "defer", "angular", "lazy-load"],
+  "peerDependencies": {
+    "@angular/common": "^10.0.14",
+    "@angular/core": "^10.0.14"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
