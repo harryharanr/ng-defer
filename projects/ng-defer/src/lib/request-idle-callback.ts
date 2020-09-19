@@ -17,7 +17,7 @@ declare global {
   }
 }
 
-let requestIdleCallback = window.requestIdleCallback || function(handler) {
+let requestIdleCallback = window.requestIdleCallback ? window.requestIdleCallback.bind(window) : function(handler) {
   let startTime = Date.now();
  
   return setTimeout(function() {
@@ -30,7 +30,7 @@ let requestIdleCallback = window.requestIdleCallback || function(handler) {
   }, 1);
 }
 
-let cancelIdleCallback = window.cancelIdleCallback || function(id) {
+let cancelIdleCallback = window.cancelIdleCallback ? window.cancelIdleCallback.bind(window) : function(id) {
   clearTimeout(id);
 }
 
