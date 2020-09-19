@@ -1,6 +1,6 @@
 {
   "name": "ng-defer",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Directive that makes the component to be rendered during idle time",  
   "keywords": ["ng-defer", "ng defer", "defer", "angular", "lazy-load", "idle", "performance"],
   "homepage": "https://github.com/harryharanr/ng-defer/blob/master/projects/ng-defer/README.md",
