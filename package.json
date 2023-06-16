@@ -1,6 +1,6 @@
 {
-  "name": "defer-version-2",
-  "version": "0.0.4",
+  "name": "ng-defer",
+  "version": "0.0.5",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
